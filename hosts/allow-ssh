@@ -1,0 +1,8 @@
+### Step 1
+#   Generate ssh-key
+ssh-keygen
+
+### Step 2
+#   Copy public key to ansible server
+ssh-copy-id username@ansible-ip
+
